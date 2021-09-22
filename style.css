@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #F0F2F5;
+    font-family: Helvetica, sans-serif;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+body, input, button {
+    font-family: Helvetica, sans-serif;
+
+}
+
+.container {
+    max-width: 980px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    padding-top: 130px;
+    padding-bottom: 200px;
+}
+
+.logo {
+    display: block;
+    height: 106px;
+    max-width: 100%;
+    margin: -28px;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 28px;
+    color: #1c1e21;
+    max-width: 500px;
+}
+
+form {
+    padding: 16px 16px 24px 16px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 1), 0 8px 16px rgb(0, 0, 0, .1);
+}
+
+form a, input, button {
+    display: block;
+}
+
+input {
+    width: 100%;
+    margin-bottom: 12px;
+    padding: 16px;
+    border-radius: 6px;
+    border: 1px solid #dddfe2;
+}
+
+input[placeholder] {
+    font-weight: 100;
+}
+
+input::placeholder {
+    font-size: 18px;
+    color: #1d2129;
+    opacity: 0.6;
+}
+
+form a {
+    display: block;
+    font-size: 14px;
+    text-decoration: none;
+    color: #1877f2;
+    text-align: center;
+    margin-top: 16px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #dadde1;
+}
+
+form a:hover {
+    text-decoration: underline;
+}
+
+.entrar, 
+.criar-conta {
+    font-weight: bold;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    padding: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.entrar {
+    background: #1877f2;
+    width: 100%;
+    font-size: 20px;
+}
+
+.criar-conta {
+    font-size: 17px;
+    background: #36a420;
+    margin: 0 auto;
+    margin-top: 16px;
+}
